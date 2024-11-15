@@ -1,7 +1,10 @@
 # The Great Suspender - Safari 标签页休眠插件
 
-The Great Suspender 是一个 Safari 插件，用于休眠长时间未使用的标签页，从而节省系统资源。本指南介绍如何在 Xcode 中启动并编译该项目。
-
+[The Great Suspender](https://github.com/greatsuspender/thegreatsuspender) 是一个 Chrome 插件，用于休眠长时间未使用的标签页，从而节省系统资源。本指南介绍如何在 Xcode 中启动并编译该项目。
+## [使用 Xcode 的命令行工具将现有扩展转换为 Safari Web 扩展。](https://developer.apple.com/documentation/safariservices/converting-a-web-extension-for-safari)
+```
+xcrun safari-web-extension-converter ./tgs-7.1.6   
+```
 ## 项目文件结构
 ```
 The Great Suspender/
