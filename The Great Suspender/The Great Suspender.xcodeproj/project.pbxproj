@@ -1,0 +1,1045 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34870FE22CE7151900A2FD79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34870FE12CE7151900A2FD79 /* AppDelegate.swift */; };
+		34870FE42CE7151900A2FD79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34870FE32CE7151900A2FD79 /* SceneDelegate.swift */; };
+		34870FE72CE7151900A2FD79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34870FE52CE7151900A2FD79 /* LaunchScreen.storyboard */; };
+		34870FEA2CE7151900A2FD79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34870FE82CE7151900A2FD79 /* Main.storyboard */; };
+		34870FF32CE7151900A2FD79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34870FF22CE7151900A2FD79 /* AppDelegate.swift */; };
+		34870FF62CE7151900A2FD79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34870FF42CE7151900A2FD79 /* Main.storyboard */; };
+		34870FFE2CE7151900A2FD79 /* The Great Suspender Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 34870FFD2CE7151900A2FD79 /* The Great Suspender Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		348710082CE7151900A2FD79 /* The Great Suspender Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 348710072CE7151900A2FD79 /* The Great Suspender Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3487100E2CE7151900A2FD79 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 34870FD12CE7151800A2FD79 /* Main.html */; };
+		3487100F2CE7151900A2FD79 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 34870FD12CE7151800A2FD79 /* Main.html */; };
+		348710102CE7151900A2FD79 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34870FD32CE7151800A2FD79 /* Icon.png */; };
+		348710112CE7151900A2FD79 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34870FD32CE7151800A2FD79 /* Icon.png */; };
+		348710122CE7151900A2FD79 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 34870FD42CE7151800A2FD79 /* Style.css */; };
+		348710132CE7151900A2FD79 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 34870FD42CE7151800A2FD79 /* Style.css */; };
+		348710142CE7151900A2FD79 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 34870FD52CE7151800A2FD79 /* Script.js */; };
+		348710152CE7151900A2FD79 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 34870FD52CE7151800A2FD79 /* Script.js */; };
+		348710162CE7151900A2FD79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34870FD62CE7151800A2FD79 /* ViewController.swift */; };
+		348710172CE7151900A2FD79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34870FD62CE7151800A2FD79 /* ViewController.swift */; };
+		348710182CE7151900A2FD79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34870FD72CE7151900A2FD79 /* Assets.xcassets */; };
+		348710192CE7151900A2FD79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34870FD72CE7151900A2FD79 /* Assets.xcassets */; };
+		3487101A2CE7151900A2FD79 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34870FD92CE7151900A2FD79 /* SafariWebExtensionHandler.swift */; };
+		3487101B2CE7151900A2FD79 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34870FD92CE7151900A2FD79 /* SafariWebExtensionHandler.swift */; };
+		348710412CE7151900A2FD79 /* recovery.html in Resources */ = {isa = PBXBuildFile; fileRef = 3487102D2CE7151900A2FD79 /* recovery.html */; };
+		348710422CE7151900A2FD79 /* update.html in Resources */ = {isa = PBXBuildFile; fileRef = 3487102E2CE7151900A2FD79 /* update.html */; };
+		348710432CE7151900A2FD79 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 3487102F2CE7151900A2FD79 /* about.html */; };
+		348710442CE7151900A2FD79 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 348710302CE7151900A2FD79 /* css */; };
+		348710452CE7151900A2FD79 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 348710312CE7151900A2FD79 /* js */; };
+		348710462CE7151900A2FD79 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710322CE7151900A2FD79 /* popup.html */; };
+		348710472CE7151900A2FD79 /* suspended.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710332CE7151900A2FD79 /* suspended.html */; };
+		348710482CE7151900A2FD79 /* updated.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710342CE7151900A2FD79 /* updated.html */; };
+		348710492CE7151900A2FD79 /* restoring-window.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710352CE7151900A2FD79 /* restoring-window.html */; };
+		3487104A2CE7151900A2FD79 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 348710362CE7151900A2FD79 /* img */; };
+		3487104B2CE7151900A2FD79 /* history.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710372CE7151900A2FD79 /* history.html */; };
+		3487104C2CE7151900A2FD79 /* broken.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710382CE7151900A2FD79 /* broken.html */; };
+		3487104D2CE7151900A2FD79 /* notice.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710392CE7151900A2FD79 /* notice.html */; };
+		3487104E2CE7151900A2FD79 /* shortcuts.html in Resources */ = {isa = PBXBuildFile; fileRef = 3487103A2CE7151900A2FD79 /* shortcuts.html */; };
+		3487104F2CE7151900A2FD79 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3487103B2CE7151900A2FD79 /* manifest.json */; };
+		348710502CE7151900A2FD79 /* debug.html in Resources */ = {isa = PBXBuildFile; fileRef = 3487103C2CE7151900A2FD79 /* debug.html */; };
+		348710512CE7151900A2FD79 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 3487103D2CE7151900A2FD79 /* options.html */; };
+		348710522CE7151900A2FD79 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 3487103E2CE7151900A2FD79 /* _locales */; };
+		348710532CE7151900A2FD79 /* font in Resources */ = {isa = PBXBuildFile; fileRef = 3487103F2CE7151900A2FD79 /* font */; };
+		348710542CE7151900A2FD79 /* permissions.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710402CE7151900A2FD79 /* permissions.html */; };
+		348710552CE7151900A2FD79 /* recovery.html in Resources */ = {isa = PBXBuildFile; fileRef = 3487102D2CE7151900A2FD79 /* recovery.html */; };
+		348710562CE7151900A2FD79 /* update.html in Resources */ = {isa = PBXBuildFile; fileRef = 3487102E2CE7151900A2FD79 /* update.html */; };
+		348710572CE7151900A2FD79 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 3487102F2CE7151900A2FD79 /* about.html */; };
+		348710582CE7151900A2FD79 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 348710302CE7151900A2FD79 /* css */; };
+		348710592CE7151900A2FD79 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 348710312CE7151900A2FD79 /* js */; };
+		3487105A2CE7151900A2FD79 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710322CE7151900A2FD79 /* popup.html */; };
+		3487105B2CE7151900A2FD79 /* suspended.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710332CE7151900A2FD79 /* suspended.html */; };
+		3487105C2CE7151900A2FD79 /* updated.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710342CE7151900A2FD79 /* updated.html */; };
+		3487105D2CE7151900A2FD79 /* restoring-window.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710352CE7151900A2FD79 /* restoring-window.html */; };
+		3487105E2CE7151900A2FD79 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 348710362CE7151900A2FD79 /* img */; };
+		3487105F2CE7151900A2FD79 /* history.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710372CE7151900A2FD79 /* history.html */; };
+		348710602CE7151900A2FD79 /* broken.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710382CE7151900A2FD79 /* broken.html */; };
+		348710612CE7151900A2FD79 /* notice.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710392CE7151900A2FD79 /* notice.html */; };
+		348710622CE7151900A2FD79 /* shortcuts.html in Resources */ = {isa = PBXBuildFile; fileRef = 3487103A2CE7151900A2FD79 /* shortcuts.html */; };
+		348710632CE7151900A2FD79 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3487103B2CE7151900A2FD79 /* manifest.json */; };
+		348710642CE7151900A2FD79 /* debug.html in Resources */ = {isa = PBXBuildFile; fileRef = 3487103C2CE7151900A2FD79 /* debug.html */; };
+		348710652CE7151900A2FD79 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 3487103D2CE7151900A2FD79 /* options.html */; };
+		348710662CE7151900A2FD79 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 3487103E2CE7151900A2FD79 /* _locales */; };
+		348710672CE7151900A2FD79 /* font in Resources */ = {isa = PBXBuildFile; fileRef = 3487103F2CE7151900A2FD79 /* font */; };
+		348710682CE7151900A2FD79 /* permissions.html in Resources */ = {isa = PBXBuildFile; fileRef = 348710402CE7151900A2FD79 /* permissions.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34870FFF2CE7151900A2FD79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34870FCB2CE7151800A2FD79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34870FFC2CE7151900A2FD79;
+			remoteInfo = "The Great Suspender Extension (iOS)";
+		};
+		348710092CE7151900A2FD79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34870FCB2CE7151800A2FD79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 348710062CE7151900A2FD79;
+			remoteInfo = "The Great Suspender Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		348710212CE7151900A2FD79 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				34870FFE2CE7151900A2FD79 /* The Great Suspender Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348710282CE7151900A2FD79 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				348710082CE7151900A2FD79 /* The Great Suspender Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		34870FD22CE7151800A2FD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		34870FD32CE7151800A2FD79 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		34870FD42CE7151800A2FD79 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		34870FD52CE7151800A2FD79 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		34870FD62CE7151800A2FD79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34870FD72CE7151900A2FD79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34870FD92CE7151900A2FD79 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		34870FDE2CE7151900A2FD79 /* The Great Suspender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Great Suspender.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34870FE12CE7151900A2FD79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34870FE32CE7151900A2FD79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34870FE62CE7151900A2FD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34870FE92CE7151900A2FD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34870FEB2CE7151900A2FD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34870FF02CE7151900A2FD79 /* The Great Suspender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Great Suspender.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34870FF22CE7151900A2FD79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34870FF52CE7151900A2FD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34870FF72CE7151900A2FD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34870FF82CE7151900A2FD79 /* The Great Suspender.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "The Great Suspender.entitlements"; sourceTree = "<group>"; };
+		34870FFD2CE7151900A2FD79 /* The Great Suspender Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "The Great Suspender Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		348710022CE7151900A2FD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		348710072CE7151900A2FD79 /* The Great Suspender Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "The Great Suspender Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3487100C2CE7151900A2FD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3487100D2CE7151900A2FD79 /* The Great Suspender.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "The Great Suspender.entitlements"; sourceTree = "<group>"; };
+		3487102D2CE7151900A2FD79 /* recovery.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = recovery.html; path = "../../tgs-7.1.6/recovery.html"; sourceTree = "<group>"; };
+		3487102E2CE7151900A2FD79 /* update.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = update.html; path = "../../tgs-7.1.6/update.html"; sourceTree = "<group>"; };
+		3487102F2CE7151900A2FD79 /* about.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = about.html; path = "../../tgs-7.1.6/about.html"; sourceTree = "<group>"; };
+		348710302CE7151900A2FD79 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = "../../tgs-7.1.6/css"; sourceTree = "<group>"; };
+		348710312CE7151900A2FD79 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = "../../tgs-7.1.6/js"; sourceTree = "<group>"; };
+		348710322CE7151900A2FD79 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = "../../tgs-7.1.6/popup.html"; sourceTree = "<group>"; };
+		348710332CE7151900A2FD79 /* suspended.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = suspended.html; path = "../../tgs-7.1.6/suspended.html"; sourceTree = "<group>"; };
+		348710342CE7151900A2FD79 /* updated.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = updated.html; path = "../../tgs-7.1.6/updated.html"; sourceTree = "<group>"; };
+		348710352CE7151900A2FD79 /* restoring-window.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "restoring-window.html"; path = "../../tgs-7.1.6/restoring-window.html"; sourceTree = "<group>"; };
+		348710362CE7151900A2FD79 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = "../../tgs-7.1.6/img"; sourceTree = "<group>"; };
+		348710372CE7151900A2FD79 /* history.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = history.html; path = "../../tgs-7.1.6/history.html"; sourceTree = "<group>"; };
+		348710382CE7151900A2FD79 /* broken.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = broken.html; path = "../../tgs-7.1.6/broken.html"; sourceTree = "<group>"; };
+		348710392CE7151900A2FD79 /* notice.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = notice.html; path = "../../tgs-7.1.6/notice.html"; sourceTree = "<group>"; };
+		3487103A2CE7151900A2FD79 /* shortcuts.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = shortcuts.html; path = "../../tgs-7.1.6/shortcuts.html"; sourceTree = "<group>"; };
+		3487103B2CE7151900A2FD79 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../tgs-7.1.6/manifest.json"; sourceTree = "<group>"; };
+		3487103C2CE7151900A2FD79 /* debug.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = debug.html; path = "../../tgs-7.1.6/debug.html"; sourceTree = "<group>"; };
+		3487103D2CE7151900A2FD79 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = "../../tgs-7.1.6/options.html"; sourceTree = "<group>"; };
+		3487103E2CE7151900A2FD79 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = "../../tgs-7.1.6/_locales"; sourceTree = "<group>"; };
+		3487103F2CE7151900A2FD79 /* font */ = {isa = PBXFileReference; lastKnownFileType = folder; name = font; path = "../../tgs-7.1.6/font"; sourceTree = "<group>"; };
+		348710402CE7151900A2FD79 /* permissions.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = permissions.html; path = "../../tgs-7.1.6/permissions.html"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34870FDB2CE7151900A2FD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34870FED2CE7151900A2FD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34870FFA2CE7151900A2FD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348710042CE7151900A2FD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34870FCA2CE7151800A2FD79 = {
+			isa = PBXGroup;
+			children = (
+				34870FCF2CE7151800A2FD79 /* Shared (App) */,
+				34870FD82CE7151900A2FD79 /* Shared (Extension) */,
+				34870FE02CE7151900A2FD79 /* iOS (App) */,
+				34870FF12CE7151900A2FD79 /* macOS (App) */,
+				348710012CE7151900A2FD79 /* iOS (Extension) */,
+				3487100B2CE7151900A2FD79 /* macOS (Extension) */,
+				34870FDF2CE7151900A2FD79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34870FCF2CE7151800A2FD79 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				34870FD62CE7151800A2FD79 /* ViewController.swift */,
+				34870FD72CE7151900A2FD79 /* Assets.xcassets */,
+				34870FD02CE7151800A2FD79 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		34870FD02CE7151800A2FD79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34870FD12CE7151800A2FD79 /* Main.html */,
+				34870FD32CE7151800A2FD79 /* Icon.png */,
+				34870FD42CE7151800A2FD79 /* Style.css */,
+				34870FD52CE7151800A2FD79 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34870FD82CE7151900A2FD79 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				3487102C2CE7151900A2FD79 /* Resources */,
+				34870FD92CE7151900A2FD79 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		34870FDF2CE7151900A2FD79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34870FDE2CE7151900A2FD79 /* The Great Suspender.app */,
+				34870FF02CE7151900A2FD79 /* The Great Suspender.app */,
+				34870FFD2CE7151900A2FD79 /* The Great Suspender Extension.appex */,
+				348710072CE7151900A2FD79 /* The Great Suspender Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34870FE02CE7151900A2FD79 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				34870FE12CE7151900A2FD79 /* AppDelegate.swift */,
+				34870FE32CE7151900A2FD79 /* SceneDelegate.swift */,
+				34870FE52CE7151900A2FD79 /* LaunchScreen.storyboard */,
+				34870FE82CE7151900A2FD79 /* Main.storyboard */,
+				34870FEB2CE7151900A2FD79 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		34870FF12CE7151900A2FD79 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				34870FF22CE7151900A2FD79 /* AppDelegate.swift */,
+				34870FF42CE7151900A2FD79 /* Main.storyboard */,
+				34870FF72CE7151900A2FD79 /* Info.plist */,
+				34870FF82CE7151900A2FD79 /* The Great Suspender.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		348710012CE7151900A2FD79 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				348710022CE7151900A2FD79 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		3487100B2CE7151900A2FD79 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				3487100C2CE7151900A2FD79 /* Info.plist */,
+				3487100D2CE7151900A2FD79 /* The Great Suspender.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		3487102C2CE7151900A2FD79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3487102D2CE7151900A2FD79 /* recovery.html */,
+				3487102E2CE7151900A2FD79 /* update.html */,
+				3487102F2CE7151900A2FD79 /* about.html */,
+				348710302CE7151900A2FD79 /* css */,
+				348710312CE7151900A2FD79 /* js */,
+				348710322CE7151900A2FD79 /* popup.html */,
+				348710332CE7151900A2FD79 /* suspended.html */,
+				348710342CE7151900A2FD79 /* updated.html */,
+				348710352CE7151900A2FD79 /* restoring-window.html */,
+				348710362CE7151900A2FD79 /* img */,
+				348710372CE7151900A2FD79 /* history.html */,
+				348710382CE7151900A2FD79 /* broken.html */,
+				348710392CE7151900A2FD79 /* notice.html */,
+				3487103A2CE7151900A2FD79 /* shortcuts.html */,
+				3487103B2CE7151900A2FD79 /* manifest.json */,
+				3487103C2CE7151900A2FD79 /* debug.html */,
+				3487103D2CE7151900A2FD79 /* options.html */,
+				3487103E2CE7151900A2FD79 /* _locales */,
+				3487103F2CE7151900A2FD79 /* font */,
+				348710402CE7151900A2FD79 /* permissions.html */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34870FDD2CE7151900A2FD79 /* The Great Suspender (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348710222CE7151900A2FD79 /* Build configuration list for PBXNativeTarget "The Great Suspender (iOS)" */;
+			buildPhases = (
+				34870FDA2CE7151900A2FD79 /* Sources */,
+				34870FDB2CE7151900A2FD79 /* Frameworks */,
+				34870FDC2CE7151900A2FD79 /* Resources */,
+				348710212CE7151900A2FD79 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				348710002CE7151900A2FD79 /* PBXTargetDependency */,
+			);
+			name = "The Great Suspender (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "The Great Suspender (iOS)";
+			productReference = 34870FDE2CE7151900A2FD79 /* The Great Suspender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34870FEF2CE7151900A2FD79 /* The Great Suspender (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348710292CE7151900A2FD79 /* Build configuration list for PBXNativeTarget "The Great Suspender (macOS)" */;
+			buildPhases = (
+				34870FEC2CE7151900A2FD79 /* Sources */,
+				34870FED2CE7151900A2FD79 /* Frameworks */,
+				34870FEE2CE7151900A2FD79 /* Resources */,
+				348710282CE7151900A2FD79 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3487100A2CE7151900A2FD79 /* PBXTargetDependency */,
+			);
+			name = "The Great Suspender (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "The Great Suspender (macOS)";
+			productReference = 34870FF02CE7151900A2FD79 /* The Great Suspender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34870FFC2CE7151900A2FD79 /* The Great Suspender Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3487101E2CE7151900A2FD79 /* Build configuration list for PBXNativeTarget "The Great Suspender Extension (iOS)" */;
+			buildPhases = (
+				34870FF92CE7151900A2FD79 /* Sources */,
+				34870FFA2CE7151900A2FD79 /* Frameworks */,
+				34870FFB2CE7151900A2FD79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Great Suspender Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "The Great Suspender Extension (iOS)";
+			productReference = 34870FFD2CE7151900A2FD79 /* The Great Suspender Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		348710062CE7151900A2FD79 /* The Great Suspender Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348710252CE7151900A2FD79 /* Build configuration list for PBXNativeTarget "The Great Suspender Extension (macOS)" */;
+			buildPhases = (
+				348710032CE7151900A2FD79 /* Sources */,
+				348710042CE7151900A2FD79 /* Frameworks */,
+				348710052CE7151900A2FD79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Great Suspender Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "The Great Suspender Extension (macOS)";
+			productReference = 348710072CE7151900A2FD79 /* The Great Suspender Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34870FCB2CE7151800A2FD79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					34870FDD2CE7151900A2FD79 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					34870FEF2CE7151900A2FD79 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					34870FFC2CE7151900A2FD79 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					348710062CE7151900A2FD79 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 34870FCE2CE7151800A2FD79 /* Build configuration list for PBXProject "The Great Suspender" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34870FCA2CE7151800A2FD79;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 34870FDF2CE7151900A2FD79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34870FDD2CE7151900A2FD79 /* The Great Suspender (iOS) */,
+				34870FEF2CE7151900A2FD79 /* The Great Suspender (macOS) */,
+				34870FFC2CE7151900A2FD79 /* The Great Suspender Extension (iOS) */,
+				348710062CE7151900A2FD79 /* The Great Suspender Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34870FDC2CE7151900A2FD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348710102CE7151900A2FD79 /* Icon.png in Resources */,
+				34870FE72CE7151900A2FD79 /* LaunchScreen.storyboard in Resources */,
+				3487100E2CE7151900A2FD79 /* Main.html in Resources */,
+				348710142CE7151900A2FD79 /* Script.js in Resources */,
+				348710182CE7151900A2FD79 /* Assets.xcassets in Resources */,
+				34870FEA2CE7151900A2FD79 /* Main.storyboard in Resources */,
+				348710122CE7151900A2FD79 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34870FEE2CE7151900A2FD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348710112CE7151900A2FD79 /* Icon.png in Resources */,
+				348710132CE7151900A2FD79 /* Style.css in Resources */,
+				34870FF62CE7151900A2FD79 /* Main.storyboard in Resources */,
+				348710152CE7151900A2FD79 /* Script.js in Resources */,
+				348710192CE7151900A2FD79 /* Assets.xcassets in Resources */,
+				3487100F2CE7151900A2FD79 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34870FFB2CE7151900A2FD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348710662CE7151900A2FD79 /* _locales in Resources */,
+				3487105E2CE7151900A2FD79 /* img in Resources */,
+				3487105D2CE7151900A2FD79 /* restoring-window.html in Resources */,
+				348710622CE7151900A2FD79 /* shortcuts.html in Resources */,
+				348710592CE7151900A2FD79 /* js in Resources */,
+				348710652CE7151900A2FD79 /* options.html in Resources */,
+				348710642CE7151900A2FD79 /* debug.html in Resources */,
+				348710602CE7151900A2FD79 /* broken.html in Resources */,
+				3487105A2CE7151900A2FD79 /* popup.html in Resources */,
+				348710612CE7151900A2FD79 /* notice.html in Resources */,
+				348710632CE7151900A2FD79 /* manifest.json in Resources */,
+				348710582CE7151900A2FD79 /* css in Resources */,
+				348710572CE7151900A2FD79 /* about.html in Resources */,
+				348710552CE7151900A2FD79 /* recovery.html in Resources */,
+				348710672CE7151900A2FD79 /* font in Resources */,
+				3487105B2CE7151900A2FD79 /* suspended.html in Resources */,
+				3487105C2CE7151900A2FD79 /* updated.html in Resources */,
+				3487105F2CE7151900A2FD79 /* history.html in Resources */,
+				348710562CE7151900A2FD79 /* update.html in Resources */,
+				348710682CE7151900A2FD79 /* permissions.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348710052CE7151900A2FD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348710522CE7151900A2FD79 /* _locales in Resources */,
+				3487104A2CE7151900A2FD79 /* img in Resources */,
+				348710492CE7151900A2FD79 /* restoring-window.html in Resources */,
+				3487104E2CE7151900A2FD79 /* shortcuts.html in Resources */,
+				348710452CE7151900A2FD79 /* js in Resources */,
+				348710512CE7151900A2FD79 /* options.html in Resources */,
+				348710502CE7151900A2FD79 /* debug.html in Resources */,
+				3487104C2CE7151900A2FD79 /* broken.html in Resources */,
+				348710462CE7151900A2FD79 /* popup.html in Resources */,
+				3487104D2CE7151900A2FD79 /* notice.html in Resources */,
+				3487104F2CE7151900A2FD79 /* manifest.json in Resources */,
+				348710442CE7151900A2FD79 /* css in Resources */,
+				348710432CE7151900A2FD79 /* about.html in Resources */,
+				348710412CE7151900A2FD79 /* recovery.html in Resources */,
+				348710532CE7151900A2FD79 /* font in Resources */,
+				348710472CE7151900A2FD79 /* suspended.html in Resources */,
+				348710482CE7151900A2FD79 /* updated.html in Resources */,
+				3487104B2CE7151900A2FD79 /* history.html in Resources */,
+				348710422CE7151900A2FD79 /* update.html in Resources */,
+				348710542CE7151900A2FD79 /* permissions.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34870FDA2CE7151900A2FD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348710162CE7151900A2FD79 /* ViewController.swift in Sources */,
+				34870FE22CE7151900A2FD79 /* AppDelegate.swift in Sources */,
+				34870FE42CE7151900A2FD79 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34870FEC2CE7151900A2FD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348710172CE7151900A2FD79 /* ViewController.swift in Sources */,
+				34870FF32CE7151900A2FD79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34870FF92CE7151900A2FD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3487101A2CE7151900A2FD79 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348710032CE7151900A2FD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3487101B2CE7151900A2FD79 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		348710002CE7151900A2FD79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34870FFC2CE7151900A2FD79 /* The Great Suspender Extension (iOS) */;
+			targetProxy = 34870FFF2CE7151900A2FD79 /* PBXContainerItemProxy */;
+		};
+		3487100A2CE7151900A2FD79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 348710062CE7151900A2FD79 /* The Great Suspender Extension (macOS) */;
+			targetProxy = 348710092CE7151900A2FD79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34870FD12CE7151800A2FD79 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34870FD22CE7151800A2FD79 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		34870FE52CE7151900A2FD79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34870FE62CE7151900A2FD79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		34870FE82CE7151900A2FD79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34870FE92CE7151900A2FD79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34870FF42CE7151900A2FD79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34870FF52CE7151900A2FD79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3487101C2CE7151900A2FD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3487101D2CE7151900A2FD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3487101F2CE7151900A2FD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The Great Suspender Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-Great-Suspender.Extension";
+				PRODUCT_NAME = "The Great Suspender Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		348710202CE7151900A2FD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The Great Suspender Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-Great-Suspender.Extension";
+				PRODUCT_NAME = "The Great Suspender Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		348710232CE7151900A2FD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The Great Suspender";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-Great-Suspender";
+				PRODUCT_NAME = "The Great Suspender";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		348710242CE7151900A2FD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The Great Suspender";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-Great-Suspender";
+				PRODUCT_NAME = "The Great Suspender";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		348710262CE7151900A2FD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/The Great Suspender.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The Great Suspender Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-Great-Suspender.Extension";
+				PRODUCT_NAME = "The Great Suspender Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		348710272CE7151900A2FD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/The Great Suspender.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The Great Suspender Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-Great-Suspender.Extension";
+				PRODUCT_NAME = "The Great Suspender Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3487102A2CE7151900A2FD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/The Great Suspender.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The Great Suspender";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-Great-Suspender";
+				PRODUCT_NAME = "The Great Suspender";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3487102B2CE7151900A2FD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/The Great Suspender.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "The Great Suspender";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.The-Great-Suspender";
+				PRODUCT_NAME = "The Great Suspender";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34870FCE2CE7151800A2FD79 /* Build configuration list for PBXProject "The Great Suspender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3487101C2CE7151900A2FD79 /* Debug */,
+				3487101D2CE7151900A2FD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3487101E2CE7151900A2FD79 /* Build configuration list for PBXNativeTarget "The Great Suspender Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3487101F2CE7151900A2FD79 /* Debug */,
+				348710202CE7151900A2FD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		348710222CE7151900A2FD79 /* Build configuration list for PBXNativeTarget "The Great Suspender (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348710232CE7151900A2FD79 /* Debug */,
+				348710242CE7151900A2FD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		348710252CE7151900A2FD79 /* Build configuration list for PBXNativeTarget "The Great Suspender Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348710262CE7151900A2FD79 /* Debug */,
+				348710272CE7151900A2FD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		348710292CE7151900A2FD79 /* Build configuration list for PBXNativeTarget "The Great Suspender (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3487102A2CE7151900A2FD79 /* Debug */,
+				3487102B2CE7151900A2FD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34870FCB2CE7151800A2FD79 /* Project object */;
+}
